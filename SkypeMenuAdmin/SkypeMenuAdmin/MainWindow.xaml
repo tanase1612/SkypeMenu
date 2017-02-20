@@ -1,0 +1,25 @@
+﻿<Window x:Class="SkypeMenuAdmin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SkypeMenuAdmin"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Background="AliceBlue"
+          WindowStartupLocation="CenterScreen" 
+        Title="SKYPE Menu" Height="362" Width="525">
+    <Grid>
+        <Button x:Name="btnO365" Content="Move User To O365" HorizontalAlignment="Left" Margin="10,114,0,0" Background="GreenYellow" VerticalAlignment="Top" Width="216" Click="btnO365_Click" UseLayoutRounding="False"/>
+        <Frame x:Name="Main" Content="Welcome  to FMC Skype Admin" HorizontalAlignment="Left" Height="299" Margin="241,10,0,0"  VerticalAlignment="Top" Width="266" FontSize="14" FontFamily="Microsoft JhengHei UI" NavigationUIVisibility="Hidden"/>
+        <Button x:Name="btnOnPrem" Content="Move To On-Premise" HorizontalAlignment="Left" Margin="10,139,0,0" Background="GreenYellow" VerticalAlignment="Top" Width="216" Click="btnOnPrem_Click"/>
+        <Button x:Name="btnO365_Copy1" Content="Enable User" HorizontalAlignment="Left" Margin="10,164,0,0" Background="GreenYellow" VerticalAlignment="Top" Width="216" Click="btnO365_Click"/>
+        <Button x:Name="btnO365_Copy2" Content="Disable User" HorizontalAlignment="Left" Margin="10,189,0,0" Background="GreenYellow" VerticalAlignment="Top" Width="216" Click="btnO365_Click"/>
+        <Button x:Name="btnO365_Copy3" Content="INFO user" HorizontalAlignment="Left" Margin="10,214,0,0" Background="GreenYellow" VerticalAlignment="Top" Width="216" Click="btnO365_Click"/>
+        <Button x:Name="btnO365_Copy4" Content="Assign O365 License" HorizontalAlignment="Left" Margin="10,239,0,0" Background="GreenYellow" VerticalAlignment="Top" Width="216" Click="btnO365_Click"/>
+        <Button x:Name="btnO365_Copy5" Content="..." HorizontalAlignment="Left" Margin="10,264,0,0" Background="GreenYellow" VerticalAlignment="Top" Width="216" Click="btnO365_Click"/>
+        <Button x:Name="btnO365_Copy6" Content="......" HorizontalAlignment="Left" Margin="10,289,0,0" Background="GreenYellow" VerticalAlignment="Top" Width="216" Click="btnO365_Click"/>
+        <Image x:Name="fmc_jpg" Margin="10,9,402,241" Source="fmc.jpg" Stretch="Fill"/>
+
+    </Grid>
+</Window>
